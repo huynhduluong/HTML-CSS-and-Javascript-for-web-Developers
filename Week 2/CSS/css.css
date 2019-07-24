@@ -12,7 +12,10 @@ p{
 	margin-right: auto;
 	width: 90%;
 	color: black;
+	background-color: #999999;
 }
+
+
 
 /*CSS for destop*/
 @media (min-width: 992px) {
