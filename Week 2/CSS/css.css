@@ -5,16 +5,36 @@
 .row{
 	width: 100%;
 }
-p{
+div#ab{
 	border: 1px solid #000;
 	position: relative;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 20px auto;
 	width: 90%;
 	color: black;
 	background-color: #999999;
+	padding: 0px 10px;
 }
 
+div#title{
+	position: absolute;
+	border: 1px solid #000;
+	border-right: 0px;
+	border-top: 0px;
+	width: 150px;	
+	text-align: center;
+	float: right;
+	margin: 0px;
+	top: 0;
+	right: 0;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+p{
+	clear: right;
+	padding-top: 10px;
+	margin: 20px;
+}
 
 
 /*CSS for destop*/
