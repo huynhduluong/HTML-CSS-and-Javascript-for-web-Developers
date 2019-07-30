@@ -28,17 +28,57 @@
 							<span>Kosher Certified</span>
 						</p>
 					</div>
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> 
+					Dùng cái bên dưới do data-taret phải trùng với id của thẻ div bên dưới thì mới hiện được -->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
  				       <span class="sr-only">Toggle navigation</span>
  				       <span class="icon-bar"></span>
  				       <span class="icon-bar"></span>
  				       <span class="icon-bar"></span>
  				    </button>
 				</div>
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="menu-categories.html">
+								<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards
+							</a>
+						</li>	
+						<li id="phone" class="hidden-xs">
+							<a href="tel:410-602-5008">
+								<span>410-602-5008</span>
+							</a>
+							<div>* We Delivery</div>
+						</li>						
+					</ul>
+				</div>
 			</div>
 		</nav>
 	</header>
 
+	<div id="call-btn" class="visible-xs">
+		<a class="btn" href="tel: 410-602-5008">
+			<span class="glyphicon glyphicon-earphone"></span>410-602-5008
+		</a>
+	</div>
+	<div id="xs-deliver" class="text-center visible-xs">* We Delivery</div>
+
+	<div id="main-content" class="container">
+		<div class="jumbotron">
+			<img src="image/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive" visible-xs>
+		</div>
+	</div>
 
 
 
