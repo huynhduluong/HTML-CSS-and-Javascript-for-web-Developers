@@ -12,10 +12,16 @@ body {
 	height: 80px;
 }
 
-#main-content div {
-	background-color: #999;
-	padding: 1px 15px;
+#nav-list {
+	margin-top: 0px;
+	border: 1px solid #000;
+	z-index: 10;
+}
+#nav-list a{
 	color: #000;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #000;
 }
 
 #main-content h2,h1{
@@ -25,7 +31,15 @@ body {
 
 #main-content h1 {
 	margin-bottom: 30px;
-	margin-top: 0px;
+}
+
+#chicken, #beef, #sushi {
+	background-color: #999;
+	padding: 5px;
+	width: 100%;
+	color: #000;
+	margin: 0 auto 15px;
+  	overflow: hidden;
 }
 
 .navbar-brand {
@@ -44,6 +58,8 @@ body {
 	line-height: .75;
 	height: 90px;
 }
+
+
 
 /***************** Large devices only ******************/
 @media (min-width: 1200px) {
@@ -87,15 +103,6 @@ body {
 	}
 	#collapsable-nav a { /*Collapsed nav menu glyph */
 		font-size: 1.2em;
-	}
-	#nav-list a{
-		color: #000;
-		text-align: center;
-		background-color: #fff;
-		border: 1px solid #000;
-	}
-	#nav-list {
-		border: 1px solid #000;
 	}
 }
 
